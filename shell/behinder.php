@@ -31,4 +31,3 @@ else
 	@new C($params);
 }
 ?>
-
